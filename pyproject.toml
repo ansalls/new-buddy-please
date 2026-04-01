@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "buddy-reroll"
+version = "0.1.0"
+description = "Zero-dependency CLI for rolling and patching Claude Code buddy companions."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+buddy-reroll = "buddyreroll.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["buddyreroll*"]
