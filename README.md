@@ -1,14 +1,14 @@
 # New Buddy, Please! - Claude Code `/buddy` Companion Customizer
 
-**Reroll, preview, and patch your Claude Code buddy pet.** Pure Python, zero dependencies.
+> Reroll, preview, and patch your Claude Code buddy pet — pure Python, zero dependencies.
+
+## Summary
 
 Claude Code's [`/buddy`](https://docs.anthropic.com/en/docs/claude-code) command hatches a terminal companion -- an ASCII art pet that watches your coding sessions and comments from a speech bubble. Your buddy's species, rarity, stats, eyes, hat, and shiny status are all deterministically generated from your account UUID and a hardcoded salt. This tool lets you **choose** what you get.
 
-> Inspired by and based on [grayashh/buddy-reroll](https://github.com/grayashh/buddy-reroll) (JavaScript/Bun). This is a from-scratch Python reimplementation with no external dependencies.
+Inspired by and based on [grayashh/buddy-reroll](https://github.com/grayashh/buddy-reroll) (JavaScript/Bun). This is a from-scratch Python reimplementation with no external dependencies.
 
----
-
-## Features
+## Capabilities
 
 - **Show** your current companion with full stats and ASCII art
 - **Search** for a salt that produces your dream buddy (species, rarity, eyes, hat, shiny)
